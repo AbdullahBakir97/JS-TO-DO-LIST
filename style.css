@@ -1,0 +1,37 @@
+.body{
+    font-family: 'Alfa Slab One', cursive; 
+
+}
+.background{
+    background: linear-gradient(132deg, #a04bf3, #d74040, #486cff, #c0ccff, #81c861, #59595b, #ec7e3f, #7e9ec3);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: AnimationName 36s ease infinite;
+    -moz-animation: AnimationName 36s ease infinite;
+    -o-animation: AnimationName 36s ease infinite;
+    animation: AnimationName 36s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
+
+}
+
+
